@@ -10,8 +10,6 @@ from scipy.stats import binom
 from math import floor
 import os
 
-# plt.show()
-
 def value_around(value=1, min_value=0, max_value=1):
     value = min(max_value, value)
     value = max(min_value, value)
